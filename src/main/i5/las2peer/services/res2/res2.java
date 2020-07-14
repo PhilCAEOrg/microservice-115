@@ -127,7 +127,7 @@ public class res2 extends RESTService {
     boolean resp1_condition = true;
     if(resp1_condition) {
       JSONObject result1 = new JSONObject();
-      result1.set("test1", "")
+      result1.set("test1", "1");
       
 
       return Response.status(HttpURLConnection.HTTP_OK).entity(result1.toJSONString()).build();
